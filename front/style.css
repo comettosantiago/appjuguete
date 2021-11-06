@@ -1,0 +1,24 @@
+/* ------------Contenedor principal-------------- */
+.maindiv{
+    background-color: rgb(146, 146, 238);
+    border: solid 5px rgb(68, 68, 211);
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* -------------------Tabla--------------------- */
+table{
+    margin: 40px auto;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid rgb(68, 68, 211);
+}
+
+th, td{
+    padding: 5px;
+}
+
+
+

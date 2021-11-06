@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>App Juguete</title>
+</head>
+
+<body>
+    <div class="maindiv">
+        <!-- name input//introduccion de nombres  -->
+        <label>Nombre:</label>
+        <input type="text" id="name-input">
+        <button id="add-name-button">Agregar nombre</button>
+
+
+        <br><br><br>
+
+        <!-- name search//busqueda de nombres -->
+        <div>
+            <input placeholder="Buscar por nombre" id="search-input">
+            <button id="search-button">Buscar</button>
+        </div>
+
+        <!-- table//tabla -->
+        <table id="table">
+            <thead>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Eliminar</th>
+                <th>Editar</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <br><br><br>
+
+        <!--occult update secttion//seccion para actualizar oculta -->
+        <section hidden id="update-row">
+            <label>Nuevo nombre: </label>
+            <input type="text" id="update-name-input">
+            <button id="update-name-button">Actualizar</button>
+        </section>
+
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
